@@ -6,6 +6,7 @@ import './index.css';
 
 // This is important!
 // Other change
+// Add another comment
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
