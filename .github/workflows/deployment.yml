@@ -1,19 +1,9 @@
 name: Deploy Project
 on:
-  pull_request:
-    types:
-      - opened
-    branches:
-      - main
-      - 'dev-*' # dev-new dev-...
-      - 'feat/*' # feat/new feat/...
   workflow_dispatch:
   push:
     branches:
       - main
-      - 'dev-*' # dev-new dev-...
-      - 'feat/*' # feat/new feat/...
-      # developer-1
     paths-ignore:
       - '.github/workflows/*'
 jobs:
