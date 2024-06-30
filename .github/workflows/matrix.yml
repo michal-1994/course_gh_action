@@ -1,5 +1,5 @@
 name: Matrix Deployment
-on: push
+# on: push
 jobs:
   build:
     continue-on-error: true
