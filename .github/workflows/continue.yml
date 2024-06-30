@@ -1,4 +1,4 @@
-name: Continue Website Deployment
+name: Continue Deployment
 on:
   push:
     branches:

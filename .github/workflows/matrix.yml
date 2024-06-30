@@ -1,4 +1,4 @@
-name: Matrix Website Deployment
+name: Matrix Deployment
 on: push
 jobs:
   build:
