@@ -3,6 +3,7 @@ name: Continue Deployment
 #   push:
 #     branches:
 #       - main
+on: workflow_dispatch
 jobs:
   lint:
     runs-on: ubuntu-latest
