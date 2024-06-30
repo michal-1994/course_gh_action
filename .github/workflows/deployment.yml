@@ -1,6 +1,5 @@
-name: Deploy Project
+name: Website Deployment
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
@@ -62,7 +61,7 @@ jobs:
         with:
           name: dist-files
           path: dist
- deploy:
+  deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
