@@ -71,3 +71,8 @@ jobs:
         run: |
           echo "Something went wrong"
           echo "${{ toJSON(github) }}"
+  information:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run custom action
+        uses: ./.github/actions/deploy-s3-javascript
